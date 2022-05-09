@@ -1,10 +1,10 @@
-package net.kigawa.template.spigotplugin;
+package net.kigawa.spigot.multipageinv;
 
 import net.kigawa.spigot.pluginutil.PluginBase;
 import net.kigawa.spigot.pluginutil.command.AbstractCmd;
 import org.bukkit.configuration.file.FileConfiguration;
 
-public final class SpigotPlugin extends PluginBase {
+public final class MultipageInv extends PluginBase {
     @Override
     public void addConfigDefault(FileConfiguration fileConfiguration) {
 

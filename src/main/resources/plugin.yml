@@ -1,5 +1,5 @@
-name: SpigotPlugin
+name: multipage-inv
 version: '${project.version}'
-main: net.kigawa.template.spigotplugin.SpigotPlugin
+main: net.kigawa.spigot.multipageinv.MultipageInv
 api-version: 1.16
 authors: [ kigawa ]

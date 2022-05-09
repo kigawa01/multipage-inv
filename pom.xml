@@ -4,15 +4,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>net.kigawa.template</groupId>
-    <artifactId>spigot-plugin</artifactId>
+    <groupId>net.kigawa.spigot</groupId>
+    <artifactId>multipage-inv</artifactId>
     <version>1.0dev</version>
     <packaging>jar</packaging>
 
-    <name>Spigot Plugin</name>
+    <name>multipage-inv</name>
 
     <properties>
-        <java.version>1.8</java.version>
+        <java.version>17</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -70,10 +70,16 @@
             <version>1.16.5-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.29</version>
+        </dependency>
         <dependency>
             <groupId>net.kigawa.spigot</groupId>
-            <artifactId>spigot-util</artifactId>
-            <version>3.6dev</version>
+            <artifactId>kutil-spigot</artifactId>
+            <version>1.1dev</version>
         </dependency>
     </dependencies>
 </project>
